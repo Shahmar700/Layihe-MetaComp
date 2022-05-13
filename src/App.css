@@ -36,7 +36,9 @@ body {
   /* background-color: #274546; */
   /* background-color: #1e1e1e; */
   background-color: #051622;
-  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif; 
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
 }
 
 .startContainer {
@@ -200,6 +202,8 @@ body {
 .mail {
   border: 0 !important;
 }
+.test {
+}
 .phAndMail {
   margin-left: 20px;
   /* border: 1px solid red; */
@@ -305,7 +309,7 @@ header input {
   /* border: 1px solid red; */
   width: 250px;
 }
-.header .logoDiv h1{
+.header .logoDiv h1 {
   display: none;
 }
 .header .logoDiv img {
@@ -1386,8 +1390,8 @@ header input {
 .regBTN button:hover {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-    background-color: #1ba098;
-    color: #051622;
+  background-color: #1ba098;
+  color: #051622;
 }
 
 .footerTopContainer {
@@ -1599,7 +1603,7 @@ header input {
   text-align: center;
   padding: 20px 25px;
 }
-.aboutBody .contact{
+.aboutBody .contact {
   width: 100%;
   font-size: 32px;
   display: flex;
@@ -1607,7 +1611,7 @@ header input {
   padding: 20px 20px 20px 0;
   font-weight: bold;
 }
-.aboutBody .contact i{
+.aboutBody .contact i {
   margin-right: 10px;
 }
 .aboutBody ul li i {
@@ -1667,7 +1671,6 @@ header input {
 .ovContainer .box:hover {
   box-shadow: #1ba098 0px 5px 15px;
   transform: scale(1.08);
-
 }
 .ovContainer .box:hover h2 {
   color: #1ba098;
@@ -2205,14 +2208,13 @@ header input {
   color: #051622;
 }
 
-
-.EmptyBasket{
+.EmptyBasket {
   width: 100%;
   height: 100%;
   background-color: #fff;
 }
 
-.hamburger{
+.hamburger {
   position: absolute;
   top: 50%;
   right: 20px;
@@ -2227,7 +2229,7 @@ header input {
 
 /* Scroll To Top Button  */
 
-.ScrollTopBtn{
+.ScrollTopBtn {
   position: fixed;
   cursor: pointer;
   bottom: 2%;
