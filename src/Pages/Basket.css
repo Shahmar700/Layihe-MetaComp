@@ -8,6 +8,7 @@
 .basketContainer {
   width: calc(100% - 355px);
   background-color: #fff;
+  border: 1px solid red;
 }
 .basketProducts {
   width: 100%;
