@@ -9,8 +9,6 @@ import About from "./Pages/About";
 import Catalog from "./Companents/Catalog";
 import HomePage from "./Pages/HomePage";
 import Result from "./Pages/Result";
-import Start from "./Pages/Start";
-import Start1 from "./Pages/Start1";
 import Start3 from "./Pages/Start3";
 import Footer from "./Companents/Footer";
 import FooterTop from "./Companents/FooterTop";
@@ -27,11 +25,8 @@ function App(props) {
     window.scrollTo(0, 0);
   }, [pathname]);
   
-  // console.log(props);
   return (
     <div>
-      {/* <Start /> */}
-      {/* <Start1 /> */}
       {/* <Start3 /> */}
       <div className="App">
         <HeaderTop />

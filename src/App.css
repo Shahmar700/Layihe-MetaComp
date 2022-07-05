@@ -1072,10 +1072,6 @@ header input {
   border-color: transparent;
 }
 .Companies .company:hover {
-  /* border-top-left-radius: 110px;
-  border-top-right-radius: 110px;
-  border-bottom-left-radius: 40px;
-  border-bottom-right-radius: 40px; */
   background-image: url("./images/companiesBcg2.jpg");
   background-color: #ffffff;
   border-color: gray;
@@ -2176,6 +2172,7 @@ header input {
   right: 1%;
   z-index: 100;
   color: #fff;
+  transition: 0.5s;
   opacity: 0;
   visibility: hidden;
 }
@@ -2206,6 +2203,10 @@ header input {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #051622;
+}
+.basketScroll:hover{
+  background-color: #1ba098;
   color: #051622;
 }
 
@@ -2240,6 +2241,22 @@ header input {
   background-color: #051622;
   padding: 5px 20px;
   border-radius: 10px;
-  opacity: 0.7;
+  opacity: 0;
+  visibility: visible;
   z-index: 9;
+}
+.opened {
+  animation: demo 0.5s linear 1 forwards;
+}
+@keyframes demo {
+  from {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
 }

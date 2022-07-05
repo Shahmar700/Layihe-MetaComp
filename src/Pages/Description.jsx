@@ -720,14 +720,6 @@ function Description(props) {
       </div>
 
       <div className="DescBottom">
-        {/* <AnimationOnScroll animateIn="animate__fadeInLeftBig">
-          <div className="pageItemsHeader">
-            <div data-aos="flip-left" data-aos-duration="2500">
-              <p>Populyar kateqoriyalar</p>
-            </div>
-          </div>
-        </AnimationOnScroll> */}
-
         <div className="descBottomItems">
           <div className="descBottomWrapper">
             <div className="dbTop">
